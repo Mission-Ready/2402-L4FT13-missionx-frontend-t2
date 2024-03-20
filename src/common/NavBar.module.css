@@ -17,9 +17,11 @@
 }
 
 .logo {
-    /* color: white; */
+    height: -webkit-fill-available;
+    padding: 5px;
     
 }
 .userImage{
-    /* color: white; */
+    height: -webkit-fill-available;
+    padding: 5px;
 }

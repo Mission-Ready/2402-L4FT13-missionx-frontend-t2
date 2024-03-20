@@ -1,12 +1,13 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import styles from './NavBar.module.css'
+import Logo from  "../assets/NavBar/LevelUpWorks-white.png"
+import User from  "../assets/NavBar/Avatar-white.png"
 
 export default function NavBar() {
   return (
     <div className={styles.mainBar}>
-        <div className={styles.logo}>
-        </div>
+        <img className={styles.logo} src={Logo} alt="Logo image"/>
       <nav>
         <Link to="/">
         <button className={styles.btn}>Home</button>
@@ -19,7 +20,7 @@ export default function NavBar() {
         </Link>
       </nav>
       <div>
-      <div className={styles.userImage}></div>
+        <img className={styles.userImage} src={User} alt="User image"/>
       </div>
     </div>
   )
