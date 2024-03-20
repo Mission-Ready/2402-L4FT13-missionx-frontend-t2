@@ -22,7 +22,6 @@
     color: white;
     font-weight: bold;
     margin: 10px 30px;
-    
     font-size: 16px;
 }
 
@@ -49,6 +48,7 @@
     align-items: center;
     font-size: 12px;
     font-weight: 700;
+    height: 64px;
 }
 
 .flag{
@@ -62,8 +62,27 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 32px;
 }
 
 .userProfile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.loginButtons{
+    background-color: unset;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.divid{
+    font-weight: bold;
+    margin: 10px;
+    font-size: 16px;
 }

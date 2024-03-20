@@ -29,8 +29,11 @@ export default function NavBar() {
         </div>
         <div className={styles.userProfile}>
           <img className={styles.userImage} src={User} alt="User image"/>
-          <button className={styles.btn}>REGISTER |</button>
-          <button className={styles.btn}>LOGIN</button>
+          <div>
+          <button className={styles.loginButtons}>REGISTER</button>
+          <span className={styles.divid}>|</span>
+          <button className={styles.loginButtons}>LOGIN</button>
+          </div>
         </div>
       </div>
     </div>
