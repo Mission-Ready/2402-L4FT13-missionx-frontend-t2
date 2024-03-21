@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.mainBar{
+    background-color: #00a9ff;
+    color: white;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-Content: space-evenly;
+    margin: 0px;
+    align-Items: center;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #41BAEF;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.btn{
+    background-color: unset;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin: 10px 30px;
+    font-size: 16px;
+}
+
+.nav{
+    align-self: self-end;
+}
+
+.logo {
+    height: -webkit-fill-available;
+    padding: 5px;
+    
+}
+
+.userImage{
+    /* height: -webkit-fill-available; */
+    height: 24px;
+    padding: 5px;
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    height: 64px;
+}
+
+.flag{
+    margin: 5px;
+    height: 12px;
+    width: 24px;
+}
+
+.flagContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+}
+
+.userProfile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.loginButtons{
+    background-color: unset;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.divid{
+    font-weight: bold;
+    margin: 10px;
+    font-size: 16px;
+}
