@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #b2e4fa;
+  font-family: "Nunito";
+  font-weight: 800;
+}
+
+.innerContainer {
+  background-color: #ffffff80;
+  margin: 30px 150px 30px 30px;
+  border-radius: 30px;
+  height: 90vh;
+}
+
+h2 {
+  padding-left: 4%;
+  padding-top: 5%;
+  font-weight: 1000;
+  color: #6C6C6C;
+}
+
+.requestContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.request {
+  background-color: white;
+  border-radius: 15px;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 80%;
+  padding: 8px;
+  color: #707070;
+}
+
+.requestText {
+  
+}
+
+.checkbox {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 0;
+  height: 28px;
+  width: 28px;
+}
