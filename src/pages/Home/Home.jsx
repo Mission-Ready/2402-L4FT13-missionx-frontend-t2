@@ -1,5 +1,7 @@
 import React from 'react'
 import NavBar from "../../common/NavBar"
+import Footer from '../../common/Footer'
+import styles from "./Home.module.css"
 
 export default function Home() {
   return (
@@ -7,6 +9,7 @@ export default function Home() {
         <NavBar/>
         <br/>
         <div>Home</div>
+        <Footer/>
     </>
     
   )
