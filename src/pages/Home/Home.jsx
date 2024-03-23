@@ -16,7 +16,7 @@ export default function Home() {
         <h1>for a better <span>future.</span></h1 >
         <h3>Let us help you advance students in Digital</h3>
         <h3>Technologies and other learning areas with</h3>
-        <h3>Our project-based learning programme.</h3>
+        <h3>Our project-based learning programme..</h3>
           
         <button className={styles.learnMoreButton}>LEARN MORE</button>
         <button className={styles.signUpButton}>SIGN UP</button>
