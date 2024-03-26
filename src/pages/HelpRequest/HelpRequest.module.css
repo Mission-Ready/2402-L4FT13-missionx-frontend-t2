@@ -1,54 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
-html,
-body {
-  display: flex;
-  flex-direction: column;
+html, body {
   background-color: #b2e4fa;
   font-family: "Nunito";
   font-weight: 800;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .innerContainer {
+  position: relative;
   background-color: #ffffff80;
-  margin: 30px 150px 30px 30px;
   border-radius: 30px;
-  height: 90vh;
+  max-width: 80%;
+  padding-bottom: 4%;
+  margin-left: 15%;
+  margin-top: 5%;
 }
 
 h2 {
-  padding-left: 4%;
-  padding-top: 5%;
+  padding-left: 6%;
+  padding-top: 3%;
   font-weight: 1000;
-  color: #6C6C6C;
+  color: #6c6c6c;
 }
 
-.requestContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.request {
+.scrollTrack {
+  position: absolute;
+  top: 20%;
+  right: 6%;
+  height: 490px;
+  width: 21px;
+  border-radius: 10px;
   background-color: white;
-  border-radius: 15px;
-  height: 50px;
-  margin-top: 40px;
-  margin-left: 40px;
-  width: 80%;
-  padding: 8px;
-  color: #707070;
 }
 
-.requestText {
-  
+.scrollBar {
+  width: 19px;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 1px;
+  border-radius: 10px;
+  background-color: #43c0f6;
+}
+.scrollBar:hover {
+  background-color: #4ca7ca;
+  cursor: pointer;
 }
 
-.checkbox {
+.replyAndMarkDoneContainer {
+  position: absolute;
+  right: 14%;
+  color: #6c6c6c;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.replyContainer:hover,
+.markAsDoneContainer:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.icon {
   position: relative;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 0;
-  height: 28px;
-  width: 28px;
+  top: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+footer {
+  color: #707070;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  text-align: center;
+  font-size: 16px;
+  background-color: white;
 }

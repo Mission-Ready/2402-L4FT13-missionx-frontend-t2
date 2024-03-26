@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.footerContainer {
+    display: flex;
+    justify-content: center;
+ font-family: 'Nunito';
+ color: #707070;
+ bottom: 0;
+ margin-left: 8%;
+ left: 50%;
+}
+
+ul {
+    list-style: none;
+}
+
+li:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.section {
+    margin-left: 30px;
+    margin-right: 30px;
+}

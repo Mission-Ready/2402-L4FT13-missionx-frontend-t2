@@ -1,14 +1,20 @@
-import React from 'react'
 import styles from './HelpRequestItem.module.css'
 
-export default function HelpRequestItem() {
+export default function HelpRequestItem({imageSrc, studentName, pronoun, date, time, index }) {
   return (
-       <div className={styles.container}>
-           <span className='studentPhoto'>{studentPhoto}</span>
-           <span className='studentName'>{studentName}</span>
-           <span>needs help with {hisOrHer} project.</span>
-           <span>{requestDate}</span>
-           <span>{requestTime}</span>
-    </div>
+    <>
+      <div className={styles.requestContainer}>
+      <input className={styles.checkbox} type="checkbox" id={index} />
+    
+       <div className={styles.request}>
+           <img className={styles.photo}src={imageSrc}/>
+      <span className={styles.requestText} >{studentName} needs help with {pronoun} project.</span>
+      <div className={styles.dateTimeContainer}>
+           <div>{date}</div>
+        <div className={styles.time}>{time}</div>
+        </div>
+        </div>
+        </div>
+      </>
   )
 }
