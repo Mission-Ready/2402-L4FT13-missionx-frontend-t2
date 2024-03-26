@@ -6,6 +6,7 @@ import {Link} from "react-router-dom"
 
 import Home from "./pages/Home/Home"
 import TeacherProfile from "./pages/TeacherProfile/TeacherProfile";
+import Projects from "./pages/project-lib/Projects"
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/help" element={<HelpRequests/>}/>
         <Route path="/teacherprofile" element={<TeacherProfile/>}/>
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </>
   )
