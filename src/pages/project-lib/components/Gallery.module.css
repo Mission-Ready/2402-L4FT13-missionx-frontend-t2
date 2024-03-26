@@ -17,26 +17,53 @@
 .projectDetails{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    height: 25%;
+    height: 110px;
+    margin-top: 5px;
 }
 
 .projectTitle{
     font-size: 30px;
     color: #707070;
-    margin: 0;
+    margin: 5px 0px 0px 0px;
+    height: 77px;
+    text-align: center;
+    line-height: 1;
 }
 
 .projectSubtitle{
     font-size: 20px;
     color: #767676;
     margin: 0;
+    justify-self: flex-end;
+    height: 33px;
+
+    
 }
 
 .row{
     display: flex;
     flex-direction: row;
 
+
 }
 
+.backToTop{
+    color: white;
+    background-color: #E5AB2C;
+    border: none;
+    border-radius: 8px;
+    width: 176px;
+    height: 36px;
+    font-weight: 800;
+    align-self: flex-end;
+}
+
+.buttonRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    max-width: 1020px;
+    margin: 10em 0;
+}

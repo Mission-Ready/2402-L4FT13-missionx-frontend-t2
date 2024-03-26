@@ -3,6 +3,7 @@ import NavBar from "../../common/NavBar"
 import styles from './Projects.module.css'
 import CategoryFilter from "./components/CategoryFilter"
 import Gallery from "./components/Gallery"
+import Footer from "../../common/Footer"
 
 export default function Projects() {
   return (
@@ -25,6 +26,7 @@ export default function Projects() {
                     </div>
                 </div>
         </div>
+        <Footer/>
     </>
   )
 }

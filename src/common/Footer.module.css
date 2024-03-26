@@ -1,0 +1,38 @@
+.main{
+    height: 634px;
+    background-color: #B2E4FA;
+    border: 1px solid #B2E4FA;
+}
+
+.listContainer{
+    margin: 154px 282px;
+    display: flex;
+    justify-content: space-around
+}
+
+.singleList{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0px 20px;
+    
+}
+
+.listTitle{
+ color: #707070;
+ font-weight: bolder;
+}
+ul{
+    color: #707070;
+    margin-top: 0;
+    padding-left: 0;
+    font-weight: 700;
+}
+.footerText{
+    color: #707070;
+    margin-top: 0;
+    padding-left: 0;
+    font-weight: 700;
+    width: 466px;
+    white-space: pre-wrap;
+}
