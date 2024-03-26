@@ -1,43 +1,95 @@
-import styles from "./Footer.module.css";
+import React from 'react'
+import styles from './Footer.module.css'
 
 export default function Footer() {
-    return (
-        <div className={styles.layout}>
-            <div className="company">
-                <h3>COMPANY</h3>
-                <p><b>About us</b></p>
-                <p><b>Careers</b></p>
-                <p><b>Partners</b></p>
+  return (
+    <div className={styles.main}>
+        <div className={styles.listContainer}>
+            <div className={styles.singleList}>
+                <h3 className={styles.listTitle}>COMPANY</h3>
+                <ul>
+                    
+                    <li>
+                        About Us
+                    </li>
+                    <li>
+                        Careers
+                    </li>
+                    <li>
+                        Partners
+                    </li>
+
+                </ul>
             </div>
-            <div className="courses">
-                <h3>COURSES</h3>
-                <p><b>Register</b></p>
-                <p><b>Login</b></p>
-                <p><b>Projects</b></p>
-                <p><b>Teachers</b></p>
-                <p><b>Resources</b></p>
+            {/* ----------------------------------------------------- */}
+            <div className={styles.singleList}>
+                <h3 className={styles.listTitle}>COURSES</h3>
+                <ul>
+                    
+                    <li>
+                        Register
+                    </li>
+                    <li>
+                        Login
+                    </li>
+                    <li>
+                        Projects
+                    </li>
+                    <li>
+                        Teachers
+                    </li>
+                    <li>
+                        Parents
+                    </li>
+                    <li>
+                        Resources
+                    </li>
+
+                </ul>
             </div>
-            <div className="support">
-                <h3>SUPPORT</h3>
-                <p><b>FAQs</b></p>
-                <p><b>Helpdesk</b></p>
-                <p><b>Contact Us</b></p>
+            {/* ----------------------------------------------------- */}
+            <div className={styles.singleList}>
+                <h3 className={styles.listTitle}>SUPPORT</h3>
+                <ul>
+                    
+                    <li>
+                        FAQs
+                    </li>
+                    <li>
+                        Helpdesk
+                    </li>
+                    <li>
+                        Contact Us
+                    </li>
+
+                </ul>
             </div>
-            <div className="legal">
-                <h3>LEGAL</h3>
-                <p><b>Terms & Conditions</b></p>
-                <p><b>Privacy Policy</b></p>
+            {/* ----------------------------------------------------- */}
+            <div className={styles.singleList}>
+                <h3 className={styles.listTitle}>LEGAL</h3>
+                <ul>
+                    
+                    <li>
+                        Terms & Conditions
+                    </li>
+                    <li>
+                        Privacy Policy
+                    </li>
+
+                </ul>
             </div>
-            <div className="levelup">
-                <h3>LevelUp Works</h3>
-                <p><b>LevelUp works is an Auckland-based</b></p>
-                <p><b>enterprise dedicated to developing game-</b></p>
-                <p><b>based learning software to help teachers in</b></p>
-                <p><b>response to the New Zealand Digital</b></p>
-                <p><b>Technologies & Hangarau Matihiko.</b></p>
-                <p><b>alan@levelupworks.com</b></p>
-                <p><b>(021) 668 185</b></p>
+            {/* ----------------------------------------------------- */}
+            <div className={styles.singleList}>
+                <h4 className={styles.listTitle}>LevelUp Works </h4>
+                <p className={styles.footerText}>
+                LevelUp Works is an Auckland-based<br/>enterprise dedicated to developing game-based<br/>learning software to help teachers in response<br/>to the New Zealand Digital Technologies & <br/>Hangarau Matihiko.<br/><br/>Alan@levelupworks.com <br/>(021) 668 185
+                </p>
             </div>
+
+            
+
         </div>
-    );
+        
+    </div>
+  )
 }
