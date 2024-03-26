@@ -9,6 +9,7 @@ export default function Projects() {
   return (
     <>
     <NavBar/>
+    <div style={{display: "flex", width: "100%", justifyContent: "center"}}>
         <div className={styles.main}>
             <div className={styles.top}>
                 <div className={styles.leftSide}/>
@@ -19,12 +20,13 @@ export default function Projects() {
                 </div>
                 <div className={styles.bottom}>
                     <div className={styles.leftSide}>
-                    <CategoryFilter/>
+                        <CategoryFilter/>
                     </div>
                     <div className={styles.rightSide}>
                         <Gallery />
                     </div>
                 </div>
+        </div>
         </div>
         <Footer/>
     </>

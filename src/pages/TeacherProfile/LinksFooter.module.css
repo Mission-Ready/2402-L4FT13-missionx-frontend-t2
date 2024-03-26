@@ -10,14 +10,14 @@
  left: 50%;
 }
 
-ul {
+/* ul {
     list-style: none;
-}
+} */
 
-li:hover {
+/* li:hover {
     cursor: pointer;
     color: black;
-}
+} */
 
 .section {
     margin-left: 30px;

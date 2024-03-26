@@ -1,11 +1,11 @@
-body {
+/* body {
     font-family: "Open Sans", sans-serif;
     background-color: #b2e4fa;
     display: auto;
     justify-content: center; 
     margin: 0;
     padding: 0;
-  }
+  } */
   
   .projects-container {
     display: flex;

@@ -6,7 +6,7 @@
     padding: 20px 40px;
 }
 
-.left-panel, .right-panel {
+.leftPanel, .rightPanel {
     flex: 1;
     padding: 10px; 
     position: relative;
@@ -17,30 +17,30 @@
     background-color: #d9f2fd;
 }
 
-.left-panel:before {
+.leftPanel:before {
     left: -20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-.right-panel:before {
+.rightPanel:before {
     right: -20px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
-.left-panel {
+.leftPanel {
     border-right: 2px solid black;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
-.right-panel {
+.rightPanel {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-button {
+.buttonStyle {
     padding: 10px;
     margin-top: 20px;
     cursor: pointer;
@@ -54,13 +54,13 @@ button {
     align-items: center;
 }
 
-button:disabled {
+.buttonStyle:disabled {
     background-color: gray; 
     cursor: not-allowed; 
   }
 
-.left-panel img,
-.right-panel img {
+.leftPanel img,
+.rightPanel img {
     max-width: 80%; 
     max-height: 80%; 
     width: auto;

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import NavBar from "../../common/NavBar";
 import Footer from "../../common/Footer";
-import './ProjectSubmissions.css';
+import styles from './ProjectSubmissions.module.css';
 
 const SubmissionDisplay = () => {
     const [submissions, setSubmissions] = useState([]);
@@ -33,21 +33,21 @@ const SubmissionDisplay = () => {
     };
 
     return (
-        <div className="submission-container">
+        <div className={styles.submission-container}>
             <NavBar />
             <h1>Student Submissions</h1>
-            <div className="submission-list">
-                <button className="remove-button" onClick={handleRemoveCompleted}>Remove Completed Projects</button>
-                <div className="scroll-container">
-                    <ul className="horizontal-list">
+            <div className={styles.submission-list}>
+                <button className={styles.remove-button} onClick={handleRemoveCompleted}>Remove Completed Projects</button>
+                <div className={styles.scroll-container}>
+                    <ul className={styles.horizontal-list}>
                         {submissions.map((submission, index) => (
-                            <li key={index} className="submission-item">
+                            <li key={index} className={styles.submission-item}>
                                 <input
                                     type="checkbox"
                                     checked={submission.completed}
                                     onChange={() => handleCheckboxChange(index)}
                                 />
-                                <div className="project-info-container">
+                                <div className={styles.project-info-container}>
                                     <div className="project-info">
                                         <b>{submission.studentName} has submitted a project</b>
                                         <div className="date"><b>Upload Time:</b> {submission.uploadTime}</div>

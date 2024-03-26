@@ -1,7 +1,7 @@
 .projectContainer{
     width: 320px;
     height: 320px;
-    margin: 40px 10px;
+    margin: 40px 5px 0px 0px;
 }
 
 .projectImage{
@@ -45,8 +45,7 @@
 .row{
     display: flex;
     flex-direction: row;
-
-
+    justify-content: space-between;
 }
 
 .backToTop{
@@ -66,4 +65,47 @@
     justify-content: flex-end;
     max-width: 1020px;
     margin: 10em 0;
+}
+
+.levelSelector{
+    margin: 0;
+    border: 0.5px solid #807E7E1A;
+    height: 21px;
+    width: 116px;
+    background-color: #F7F0F0;
+    box-shadow: 0px 0.5px 1px #00000047;
+    color:#000000C2;
+    font-weight: 800;
+}
+
+.qtySelector{
+    margin: 0;
+    border: 0.5px solid #807E7E1A;
+    height: 21px;
+    width: 52px;
+    background-color: #F7F0F0;
+    box-shadow: 0px 0.5px 1px #00000047;
+    color:#000000C2;
+    font-weight: 800;
+}
+
+.btnStart{
+    border-radius: 3px 0px 0px 3px;
+}
+
+.btnEnd{
+    border-radius: 0px 3px 3px 0px;
+}
+
+.selected{
+    color: #fff;
+    font-weight: 800;
+    background-image: linear-gradient(180deg,#0E81FF, #65AFFA);
+}
+
+.filterContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }

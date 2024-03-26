@@ -6,8 +6,8 @@ import Rawiri from "/images/students/RawiriFletcher.png";
 import Neveah from "/images/students/NeveahMachenry.png";
 import Javier from "/images/students/JavierFuego.png";
 import Tokio from "/images/students/TokioHan.png";
-import ReplyIcon from '@mui/icons-material/Reply';
-import DoneIcon from '@mui/icons-material/Done';
+// import ReplyIcon from '@mui/icons-material/Reply';
+// import DoneIcon from '@mui/icons-material/Done';
 import NavBarWhite from '../../common/NavBarWhite'
 import Jasmina from "/images/teachers/JasminaSalvador.png";
 import { useState, useEffect } from "react";
@@ -71,7 +71,7 @@ export default function HelpRequests() {
   requestArray.filter
  }
   return (
-    <>
+    <div className={styles.main}>
       <Sidenav currentTeacher={teacherArray[0]} />    
       <NavBarWhite />
        
@@ -79,8 +79,11 @@ export default function HelpRequests() {
       
         <div className={styles.innerContainer}>
           
-        <h2>HELP REQUESTS</h2>
-          <div className={styles.replyAndMarkDoneContainer}><span className={styles.replyContainer}><ReplyIcon className={styles.icon} />REPLY </span><span className={styles.markAsDoneContainer}><DoneIcon onClick={handleDoneClick}className={styles.icon}/>MARK AS DONE</span></div>
+        <h2 className={styles.header2}>HELP REQUESTS</h2>
+          <div className={styles.replyAndMarkDoneContainer}><span className={styles.replyContainer}>
+            {/* <ReplyIcon className={styles.icon} />REPLY </span><span className={styles.markAsDoneContainer}>
+              <DoneIcon onClick={handleDoneClick}className={styles.icon}/> */}
+              MARK AS DONE</span></div>
         <div className={styles.scrollTrack}><div className={styles.scrollBar}></div></div>
         <div className={styles.requestContainer}>
         
@@ -92,9 +95,9 @@ export default function HelpRequests() {
           
           </div>
       </div>
-           <footer>© LevelUp Works 2020 </footer>
+           <footer className={styles.footer}>© LevelUp Works 2020 </footer>
       </div>
       
-    </>
+    </div>
   );
 }
