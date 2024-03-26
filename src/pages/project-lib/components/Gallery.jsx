@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Gallery.module.css'
 import Item from './Item'
+import {Link} from 'react-router-dom'
 
 export default function Gallery() {
     
@@ -30,7 +31,9 @@ export default function Gallery() {
             </div>
         </div>
         <div className={styles.row}>
-            <Item projectTitle="Introduction" projectSubtitle={sub}/>
+            <Link to="./Introduction">
+                <Item projectTitle="Introduction" projectSubtitle={sub}/>
+            </Link>
             <Item projectTitle="My Birthday" projectSubtitle={sub}/>
             <Item projectTitle="10 Block Challenge" projectSubtitle={sub}/>
         </div>

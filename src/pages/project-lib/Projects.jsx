@@ -8,7 +8,7 @@ import Footer from "../../common/Footer"
 export default function Projects() {
   return (
     <>
-    <NavBar/>
+    <NavBar colorState={"0"}/>
     <div style={{display: "flex", width: "100%", justifyContent: "center"}}>
         <div className={styles.main}>
             <div className={styles.top}>

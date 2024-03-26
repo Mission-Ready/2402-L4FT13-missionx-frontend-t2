@@ -9,6 +9,8 @@ import ProjectSubmissions from "./pages/ProjectSubmissions/ProjectSubmissions"
 import SubmitProject from "./pages/SubmitProject/SubmitProject"
 import TeacherProfile from "./pages/TeacherProfile/TeacherProfile";
 import Projects from "./pages/project-lib/Projects"
+import StudentProject from "./pages/project-lib/StudentProject"
+
 
 export default function App() {
   return (
@@ -19,6 +21,7 @@ export default function App() {
         <Route path="/help" element={<HelpRequests/>}/>
         <Route path="/teacherprofile" element={<TeacherProfile/>}/>
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/Introduction" element={<StudentProject />} />
       </Routes>
     </>
   )
