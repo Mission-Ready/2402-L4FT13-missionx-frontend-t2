@@ -1,0 +1,27 @@
+:root {
+    --textColor: #767676;
+  }
+
+.title{
+    margin-top: 24px;
+    font-size: 16px;
+}
+
+.item{
+    font-size: 14px;
+}
+
+.itemActive{
+
+}
+
+li{
+    list-style: none;
+}
+.main{
+    margin:8px;
+}
+
+.checkboxLabel{
+    margin-left: 10px;
+}
