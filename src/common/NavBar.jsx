@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import {Link} from "react-router-dom"
 import styles from './NavBar.module.css'
 import Logo from  "../assets/NavBar/LevelUpWorks-white.png"
@@ -6,7 +6,21 @@ import User from  "../assets/NavBar/Avatar-white.png"
 import NZFlag from "../assets/NavBar/NZFlag.png"
 import MaoriFlag from "../assets/NavBar/MaoriFlag.png"
 
-export default function NavBar() {
+export default function NavBar({colorState}) {
+  // const [type, setType] = useState("0");
+
+  // const [bg, setBg] = useState("#fff");
+
+  // // useEffect(() => {
+  // //   type != "0" ? setBg("#00a9ff") : setBg("#fff")
+  // // }, [type])
+  
+  // useEffect(() => {
+  //   setType(colorState);
+  //   console.log(colorState);
+  // });
+  
+
   return (
     <div className={styles.mainBar}>
         <img className={styles.logo} src={Logo} alt="Logo image"/>

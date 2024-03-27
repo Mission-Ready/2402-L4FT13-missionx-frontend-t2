@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
-html, body {
+/* This was previously html, body */
+.main {
   background-color: #b2e4fa;
   font-family: "Nunito";
   font-weight: 800;
@@ -17,8 +18,8 @@ html, body {
   margin-left: 15%;
   margin-top: 5%;
 }
-
-h2 {
+/* This was previously h2 */
+.header2 {
   padding-left: 6%;
   padding-top: 3%;
   font-weight: 1000;
@@ -69,7 +70,7 @@ h2 {
   padding-right: 5px;
 }
 
-footer {
+.footer {
   color: #707070;
   position: fixed;
   bottom: 0;

@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    height: 80vh; 
+    padding: 20px; 
+    background-color: #b2e4fa; 
+    padding: 20px 40px;
+}
+
+.leftPanel, .rightPanel {
+    flex: 1;
+    padding: 10px; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9f2fd;
+}
+
+.leftPanel:before {
+    left: -20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.rightPanel:before {
+    right: -20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.leftPanel {
+    border-right: 2px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.rightPanel {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.buttonStyle {
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: hotpink; 
+    color: white;
+    border-radius: 20px; 
+    border: none; 
+    width: 200px;
+    display: flex;
+    flex-direction: column-reverse; 
+    align-items: center;
+}
+
+.buttonStyle:disabled {
+    background-color: gray; 
+    cursor: not-allowed; 
+  }
+
+.leftPanel img,
+.rightPanel img {
+    max-width: 80%; 
+    max-height: 80%; 
+    width: auto;
+    height: auto;
+    margin: 0 auto; 
+    display: block; 
+    padding: 10px; 
+}

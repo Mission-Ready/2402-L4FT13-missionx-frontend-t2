@@ -1,5 +1,5 @@
 import styles from "./Sidenav.module.css";
-import { Sidebar, Menu, MenuItem } from "react-pro-sidebar";
+//import { Sidebar, Menu, MenuItem } from "react-pro-sidebar";
 import ProgressTracker from "../assets/TeacherDashboard/progressTracker.png";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
