@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import NavBar from "../../common/NavBar";
-import Footer from "../../common/Footer";
+import NavBarWhite from "../../common/NavBarWhite";
 import ProjectImage from "../../assets/StudentDashboard/makeProject-screenshot.png";
 import HelpIcon from '../../assets/StudentDashboard/sendPhoto.png';
 import TeacherHelp from "../../assets/StudentDashboard/submitProject-Photo.png";
@@ -21,7 +20,7 @@ function SubmitProject() {
 
   return (
     <div>
-      <NavBar />
+      <NavBarWhite />
       <div className="container">
         <div className="left-panel">  
           <img src={ProjectImage} alt="ProjectImage" />
@@ -40,7 +39,7 @@ function SubmitProject() {
           </button>
         </div>
       </div>
-      <Footer />
+      <footer>© LevelUp Works 2020 </footer>
     </div>
   );
 }

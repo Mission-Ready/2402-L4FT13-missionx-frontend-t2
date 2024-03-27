@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import NavBar from "../../common/NavBar";
-import Footer from "../../common/Footer";
+import NavBarWhite from "../../common/NavBarWhite";
 import './ProjectSubmissions.css';
 
 const SubmissionDisplay = () => {
@@ -34,7 +33,7 @@ const SubmissionDisplay = () => {
 
     return (
         <div className="submission-container">
-            <NavBar />
+            <NavBarWhite />
             <h1>Student Submissions</h1>
             <div className="submission-list">
                 <button className="remove-button" onClick={handleRemoveCompleted}>Remove Completed Projects</button>
@@ -58,7 +57,7 @@ const SubmissionDisplay = () => {
                     </ul>
                 </div>
             </div>
-            <Footer />
+            <footer>© LevelUp Works 2020 </footer>
         </div>
     );
 };

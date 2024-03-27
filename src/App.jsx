@@ -14,11 +14,12 @@ export default function App() {
   return (
     <>
       <Routes>
-        <Route path="/Submit" element={<SubmitProject />} />
+        <Route path="/submit" element={<SubmitProject />} />
         <Route path="/" element={<Home />} />
         <Route path="/help" element={<HelpRequests/>}/>
         <Route path="/teacherprofile" element={<TeacherProfile/>}/>
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projectsubmissions" element={<ProjectSubmissions />} />
       </Routes>
     </>
   )

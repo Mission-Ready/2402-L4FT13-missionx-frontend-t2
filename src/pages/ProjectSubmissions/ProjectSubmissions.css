@@ -4,9 +4,10 @@ body {
     display: auto;
     justify-content: center; 
     margin: 0;
-    padding: 0;
+    padding-top: 50px;
+    color: black;
   }
-  
+
   .projects-container {
     display: flex;
     flex-direction: column;
@@ -19,7 +20,7 @@ body {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     margin-top: 20px;
     width: 90%;
     margin: 0 auto;
@@ -31,8 +32,8 @@ body {
     margin-left: auto; 
     margin-right: 170px; 
     padding: 8px 16px ;
-    background-color: transparent;
-    color: gray;
+    background-color: #d9f2fd;
+    color: black;
     border: solid;
     border-radius: 4px;
     border-color: #ff6347;
@@ -51,11 +52,12 @@ body {
   }
   
   .scroll-container {
-    max-height: 300px;
+    max-height: 400px;
     overflow-y: auto;
     background-color: #d9f2fd;
-    margin: 0 auto;
+    margin: 10px auto;
     border-radius: 8px;
     width: 80% ;
+    height: auto;
     padding: 20px
   }
