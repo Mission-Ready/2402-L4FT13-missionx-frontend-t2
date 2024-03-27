@@ -3,7 +3,7 @@ import NZFlag from "../assets/NavBar/NZFlag.png"
 import MaoriFlag from "../assets/NavBar/MaoriFlag.png"
 import styles from './NavBarWhite.module.css'
 
-export default function TopBar() {
+export default function NavBarWhite() {
   return (
       <div className={styles.mainContainer}>
           <img className={styles.logo} src={Logo} alt="levelup works logo" />

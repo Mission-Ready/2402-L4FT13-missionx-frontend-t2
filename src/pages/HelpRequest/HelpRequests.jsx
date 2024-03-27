@@ -68,7 +68,7 @@ export default function HelpRequests() {
     }
   ]
  function handleDoneClick () {
-  requestArray.filter
+  //requestArray.filter
  }
   return (
     <>

@@ -1,4 +1,68 @@
 .mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     background-color: #EEEEEE;
     height: 60vh;
 }
+
+.leftSide {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 25%;
+    height: 75%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 25%;
+    height: 85%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.content {
+ display: flex;
+ justify-content: center ;
+}
+
+.photo {
+    margin-top: 15%;
+    height: 30%;
+    width: auto;
+}
+
+.button {
+    position: relative;
+    height: 35px;
+    width: 200px;
+    font-family: 'Nunito';
+    border-radius: 7px;
+    color: #43C0F6;
+    border: 2px solid #43C0F6;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 800;
+    box-shadow: 4px 4px rgba(0,0,0,0.2);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    top: 15%;
+  }
+
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
